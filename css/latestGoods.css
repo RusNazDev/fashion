@@ -1,0 +1,149 @@
+.latestGoods {
+    padding-bottom: 8.6rem;
+}
+.notice {
+    margin-top: 2.9rem;
+    padding: 4.1rem 5.8rem 7rem; 
+    background-color: #F7F8FC;
+    border-radius: 4px;
+}
+
+.coverGoods {
+    display: flex;
+   gap: 3rem;
+
+}
+
+.cover {
+    width: 22.711%;
+}
+.cover > .goods > .notice {
+    display: flex;
+    justify-content: center;
+}
+.goods {
+    position: relative; 
+}
+.goods span {
+    position: absolute;
+    font-weight: 300;
+font-size: 1.2rem;
+line-height: 2.5rem;
+background: #31797E;
+border-radius: 2px;
+color: #fff;
+padding: .1rem .8rem;
+top: 1.3rem;
+left: 1.5rem;
+}
+
+.goods .lastSpan {
+ display: inline;
+}
+
+.goods .lastSpan p {
+    position: absolute;
+    font-weight: 300;
+    font-size: 1.2rem;
+    line-height: 2.5rem;
+    background-color: #F04726;;
+    border-radius: 2px;
+    color: #fff;
+    padding: .1rem .8rem;
+    
+    top:1.3rem;
+    right: 1.5rem;
+
+}
+
+.mark {
+    display: flex;
+   
+    align-items: center;
+    gap: .9rem;
+    margin-top: 1.5rem;
+   ;
+}
+.mark p {
+    font-weight: 300;
+    font-size: 1.6rem;
+    line-height: 2.5rem;
+    color: #7F8698;
+    font-family: workSans;
+}
+
+.inform > .only_p {
+    font-weight: 500;
+    font-size: 2.2rem;
+    line-height: 5rem;
+    font-family: workSans;
+}
+
+.costSize {
+    display: flex;
+    justify-content: space-between;
+}
+
+.costSize >div:first-child span {
+    font-family: workSans;
+    font-weight: 600;
+    font-size: 2.5rem;
+    color: #297176;
+    border: none;
+}
+
+.costSize >:last-child span {
+    border: 1px solid #A5A9B2;
+    border-radius: .2rem;
+    padding: .2rem .9rem;
+    font-weight: 500;
+font-size: 16px;
+line-height: 25px;
+color: #297176;
+
+}
+
+.costPrice {
+    display: flex;
+    
+}
+
+.costPrice >div:first-child span {
+    font-family: workSans;
+    font-weight: 600;
+    font-size: 2.5rem;
+    color: #297176;
+    border: none;
+}
+
+
+
+
+.costPrice >:last-child span {
+    border: 1px solid #A5A9B2;
+    border-radius: .2rem;
+    padding: .2rem .9rem;
+    font-weight: 500;
+font-size: 1.6rem;
+line-height: 2.5rem;
+color: #297176;
+
+}
+.costPrice > .smallPrice > span{
+    text-decoration: line-through;
+    border: none;
+    margin-left: 1.4rem;
+    font-size: 1.9rem;
+}
+.last {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: .8rem;
+}
+.last span:last-child {
+    padding: .2rem .4rem;
+
+}
+
+

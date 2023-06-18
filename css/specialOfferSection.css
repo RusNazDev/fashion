@@ -1,0 +1,102 @@
+main {
+    padding: 9.6rem 0;
+    background-color: #F6F8FA;
+}
+.specialOffer {
+    display: flex;
+    justify-content: space-between;         ;
+}
+
+.specialOffer .img  {
+ 
+    width: 39%;
+   
+}
+
+.specialOffer .img img {
+    width: 100%;
+}
+
+.specialOffer .first_p  {
+  
+    font-weight: 400;
+    font-size: 2rem;
+    line-height: 6rem;
+    color: #589195;
+    
+}
+
+.costs {
+    margin: 1.1rem 0 .6rem 0;
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+}
+
+.costs p:first-child {
+    font-weight: 500;
+    font-size: 50px;
+    line-height: 60px;
+    color: #589195;
+}
+
+.costs span{
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 60px;
+    text-decoration: line-through;
+    color: #5B6075;
+    margin-left: 1.6rem;
+}
+
+.costs > div button {
+    background: #589195;
+border-radius: 3.8rem;
+color: #fff;
+padding: 1.1rem 3.6rem;
+font-weight: 400;
+font-size: 1.8rem;
+margin-top: 0.4rem;
+margin-left: 6.7rem;
+}
+
+.hourDeadline .end {
+    font-weight: 400;
+font-size: 20px;
+line-height: 60px;
+color: #34394C;
+}
+
+.reverseTime {
+    display: flex;
+    gap: 1rem;
+     text-align: center;
+    align-items: center;
+}
+
+.reverseTime div > p:first-child {
+    width: 8.3rem;
+    height: 8.3rem;
+    padding: 1.2rem 1.3rem 1.2rem 1rem;
+    border-radius: 50%;
+    background-color: #fff;
+
+    font-weight: 300;
+font-size: 30px;
+line-height: 60px;
+color: #34394C;
+}
+
+.reverseTime div > p:last-child {
+    font-weight: 300;
+font-size: 16px;
+line-height: 60px;
+color: #34394C;
+}
+.reverseTime > p {
+    margin-top: -12%;
+    font-weight: 300;
+font-size: 38px;
+line-height: 60px;
+color: #34394C;
+}

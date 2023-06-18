@@ -1,0 +1,74 @@
+.featurePro {
+    padding: 12.5rem 0 0;
+}
+
+.show {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.asartment {
+    display: flex;
+    gap: 4.5rem;
+    align-items: center;
+    
+    font-weight: 300;
+font-size: 26px;
+line-height: 60px;
+color: #AFB4C4;
+}
+
+.asartment p:first-child {
+    color: #34394C;
+}
+
+.featurePro .notice {
+    padding: 8.4rem 7.6rem 0;
+    background-color: #F7F8FC;
+}
+
+.threePoint {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 2.3rem;
+}
+.threePoint .points {
+    display: flex;
+    gap: 1rem;
+}
+.threePoint .points  p{
+    width: 1.1rem;
+    height: 1.1rem;
+    background-color: blue;
+    border-radius: 50%;
+   
+}
+
+.threePoint .points .one {
+    background-color: #BA2828;
+}
+.threePoint .points .two {
+    background-color: #56C4E7;
+}
+
+.threePoint .points .three {
+    background-color: #040404;
+}
+
+.threePoint div:last-child span {
+    border: 1px solid #A5A9B2;
+    border-radius: .2rem;
+    padding: .2rem .9rem;
+    font-weight: 500;
+font-size: 16px;
+line-height: 25px;
+color: #297176;
+
+}
+
+.product {
+    margin-top: 5.4rem;
+}
+

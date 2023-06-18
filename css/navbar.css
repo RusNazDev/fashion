@@ -1,0 +1,50 @@
+nav {
+    background-color: #DEECEC;
+    border-bottom: 2px solid #84BABE;
+}
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   
+    padding: 3.7rem 0 2.7rem;
+    background-color: #DEECEC;
+}
+
+.navbar > ul {
+    display: flex;
+    gap: 4.2rem;
+}
+
+.navbar > ul li:first-child > a {
+    color: #2C5F63;
+}
+.navbar > ul > li > a {
+    font-weight: 500;
+    font-size: 1.8rem;
+    line-height: 2.1rem;
+    color: #6A7087;
+    font-family: workSans; 
+}
+
+.searching {
+    display: flex;
+    gap: 2.8rem;
+    position: relative;
+    
+}
+
+.searching div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    width: 1.5rem;
+    height: 1.5rem;
+    background-color: red;
+    border-radius: 50%;
+    color: #fff;
+    top: -.6rem;
+    right: -.6rem;
+}
+

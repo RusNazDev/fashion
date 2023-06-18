@@ -1,0 +1,31 @@
+.categories {
+    margin-top: 4rem;
+    display: flex;
+    gap: 3rem;
+}
+
+.categories > div {
+    width: 23.7%;
+}
+
+.categories > div > img {
+    width: 100%;
+}
+.first_p{
+    font-weight: 400;
+font-size: 28px;
+line-height: 60px;
+color: #34394C;
+margin-top: .8rem;
+text-align: center;
+}
+
+.second_p {
+    font-weight: 400;
+font-size: 16px;
+text-align: center;
+color: #BFBFBF;
+}
+
+
+

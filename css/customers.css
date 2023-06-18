@@ -1,0 +1,58 @@
+.main {
+    background-color: #F6F8FA;
+}
+
+.customers {
+    display: flex;
+    
+}
+
+.aboutUs {
+    margin-top: 9.4rem;
+}
+.figures {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 1.9rem;
+}
+
+.comments {
+   
+    padding: 5.7rem 3.2rem 4rem ;
+}
+
+.comments > p {
+    font-family: 'Work Sans';
+font-style: italic;
+font-weight: 400;
+font-size: 1.6rem;
+line-height: 26px;
+color: #707686;
+}
+
+.profImg {
+    display: flex;
+    gap: 1rem;
+    margin-top: 1rem;
+}
+
+.profImg img {
+    border-radius: 50%;
+}
+.profImg h5 {
+    font-weight: 400;
+font-size: 20px;
+color: #34394C;
+}
+
+.profImg > p {
+    font-weight: 400;
+font-size: 12px;
+color: #B4B9C7;
+
+}
+.double {
+    display: flex;
+    width: 70%;
+    
+}
